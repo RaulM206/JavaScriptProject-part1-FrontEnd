@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Raul's Pizza Parlor</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Raul's Pizza</h2>
+        <h3>Choose your favorite toppings, and drink!</h3>
+        <div id="pizza_size">
+            <p>Select your pizza size</p>
+            <input type="radio" id="smallSize" name="size" value="smallPizzaSize">
+            <label for="pizzaSize1">Small - $10.00</label><br> 
+            <input type="radio" id="mediumSize" name="size" value="mediumPizzaSize">
+            <label for="pizzaSize2">Medium - $13.00</label><br> 
+            <input type="radio" id="largeSize" name="size" value="largePizzaSize">
+            <label for="pizzaSize3">Large - $17.00</label><br> 
+            <input type="radio" id="extraLargeSize" name="size" value="extraLargePizzaSize">
+            <label for="pizzaSize4">Extra large - $20.00</label><br> 
+        </div>
+        <div id="pizzatoppings">
+            <p>Select your favorite Toppings!</p>
+            <input type="checkbox" id="Pepperoni" name="pepperoni" value="pepperoniTopping">
+            <label for="pizzatopping1">Pepperoni - $2.00</label><br>
+            <input type="checkbox" id="Mushroom" name="mushroom" value="mushroomtopping">
+            <label for="pizzatopping2">Mushroom - $1.50</label><br>
+            <input type="checkbox" id="extraCheese" name="extracheese" value="cheeseTopping">
+            <label for="pizzatopping3">Extra Cheese - $1.00</label><br>
+            <input type="checkbox" id="Sausage" name="sausage" value="sausageTopping">
+            <label for="pizzatopping4">Sausage - $2.00</label><br>
+            <input type="checkbox" id="Onion" name="onion" value="onionTopping">
+            <label for="pizzatopping5">Onion - $1.50</label><br>
+            <input type="checkbox" id="Black_Olives" name="black-olives" value="blackOliveTopping">
+            <label for="pizzatopping6">Black Olives - $1.50</label><br>
+            <input type="checkbox" id="Green_Peppers" name="green_peppers" value="greenPeppersTopping">
+            <label for="pizzatopping7">Green Peppers - $1.00</label><br>
+            <input type="checkbox" id="Garlic" name="garlic" value="garlicTopping">
+            <label for="pizzatopping8">Fresh Garlic - $2.00</label><br>
+            <input type="checkbox" id="Tomato" name="tomato" value="tomatoTopping">
+            <label for="pizzatopping9">Tomato - $1.00</label><br>
+            <input type="checkbox" id="Basil" name="basil" value="basilTopping">
+            <label for="pizzatopping10">Fresh Basil - $3.00</label><br>
+    </div>
+    <div id="drinkOptions">
+        <p>Drinks</p>
+        <select name="drinks" id="drink">
+            <option value="coke">Coke</option>
+            <option value="sprite">Sprite</option>
+            <option value="water">Water</option>
+            <option value="dPepper">Dr.Pepper</option>
+            <option value="pepsi">Pepsi</option>
+          </select>
+
+        <p>Select Size</p>
+        <select name="drinksize" id="drinkSize">
+            <option value="smallDrink">Small - $1.50</option>
+            <option value="MediumDrink">Medium - $1.75</option>
+            <option value="LargeDrink">Large - $2.00</option>
+            <option value="ExtraLargeDrink">Extra Large - $2.25</option>
+          </select>
+    </div>
+    <div id="customer-Information">
+        <p>Customer Information</p>
+        <label for="name">Name:</label>
+        <input type="text" id="fullName" name="fname"><br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="Address" name="customerAddress"><br><br>
+        <label for="CitandSte">City and State:</label>
+        <input type="text" id="City-and-State" name="cityandstate"><br><br>
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="Zip" name="zipCode"><br><br>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phoneNumber" name="phoneNum"><br><br>
+        </div>
+    <audio autoplay loop src="sounds_and_music/Seaside Piazza - Aaron Kenny.mp3"></audio>
+</body>
+</html>
