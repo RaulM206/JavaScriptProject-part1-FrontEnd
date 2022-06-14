@@ -13,13 +13,13 @@
         <h3><em>Choose your favorite toppings, and drink!</em></h3>
         <div id="pizza-size">
             <p>Select your pizza size</p>
-            <input type="radio" class="pizzaSize" name="size" value="smallPizzaSize">
+            <input type="radio" class ="pizzaSize" name="size" value="10.00">
             <label for="pizzaSize1">Small - $10.00</label><br> 
-            <input type="radio" class="pizzaSize" name="size" value="mediumPizzaSize">
+            <input type="radio" class="pizzaSize" name="size" value="13.00">
             <label for="pizzaSize2">Medium - $13.00</label><br> 
-            <input type="radio" class="pizzaSize" name="size" value="largePizzaSize">
+            <input type="radio" class="pizzaSize" name="size" value="17.00">
             <label for="pizzaSize3">Large - $17.00</label><br> 
-            <input type="radio" class="pizzaSize" name="size" value="extraLargePizzaSize">
+            <input type="radio" class="pizzaSize" name="size" value="20.00">
             <label for="pizzaSize4">Extra large - $20.00</label><br>
             <div id="pizza-Images">
                 <img src="images/smallPizza.JPG">
@@ -34,43 +34,43 @@
         </div>
         <p>Select your favorite Toppings!</p>
         <div id="pizzatoppings">
-            <input type="checkbox" class="toppings" name="pepperoni" value="pepperoniTopping" img src="images/smallPizza.JPG">
+            <input type="checkbox" class="toppings" name="pepperoni" value="2.00">
             <label for="pizzatopping1">Pepperoni - $2.00</label><br>
-            <input type="checkbox" class="toppings" name="mushroom" value="mushroomtopping">
+            <input type="checkbox" class="toppings" name="mushroom" value="1.50">
             <label for="pizzatopping2">Mushroom - $1.50</label><br>
-            <input type="checkbox" class="toppings" name="extracheese" value="cheeseTopping">
+            <input type="checkbox" class="toppings" name="extracheese" value="1.00">
             <label for="pizzatopping3">Extra Cheese - $1.00</label><br>
-            <input type="checkbox" class="toppings" name="sausage" value="sausageTopping">
+            <input type="checkbox" class="toppings" name="sausage" value="2.00">
             <label for="pizzatopping4">Sausage - $2.00</label><br>
-            <input type="checkbox" class="toppings" name="onion" value="onionTopping">
+            <input type="checkbox" class="toppings" name="onion" value="1.50">
             <label for="pizzatopping5">Onion - $1.50</label><br>
-            <input type="checkbox" class="toppings" name="black-olives" value="blackOliveTopping">
+            <input type="checkbox" class="toppings" name="black-olives" value="1.50">
             <label for="pizzatopping6">Black Olives - $1.50</label><br>
-            <input type="checkbox"  class="toppings" name="green_peppers" value="greenPeppersTopping">
+            <input type="checkbox"  class="toppings" name="green_peppers" value="1.00">
             <label for="pizzatopping7">Green Peppers - $1.00</label><br>
-            <input type="checkbox" class="toppings" name="garlic" value="garlicTopping">
+            <input type="checkbox" class="toppings" name="garlic" value="2.00">
             <label for="pizzatopping8">Fresh Garlic - $2.00</label><br>
-            <input type="checkbox" class="toppings" name="tomato" value="tomatoTopping">
+            <input type="checkbox" class="toppings" name="tomato" value="1.00">
             <label for="pizzatopping9">Tomato - $1.00</label><br>
-            <input type="checkbox" class="toppings" name="basil" value="basilTopping">
+            <input type="checkbox" class="toppings" name="basil" value="3.00">
             <label for="pizzatopping10">Fresh Basil - $3.00</label><br>
     </div>
     <div id="drinkOptions">
         <p>Drinks</p>
         <select name="drinks" id="drink">
-            <option value="coke">Coke</option>
-            <option value="sprite">Sprite</option>
-            <option value="water">Water</option>
-            <option value="dPepper">Dr.Pepper</option>
-            <option value="pepsi">Pepsi</option>
+            <option value="Coke">Coke</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Water">Water</option>
+            <option value="Dr.Pepper">Dr.Pepper</option>
+            <option value="Pepsi">Pepsi</option>
           </select>
 
         <p>Select Size</p>
         <select name="drinksize" id="drinkSize">
-            <option value="smallDrink">Small - $1.50</option>
-            <option value="MediumDrink">Medium - $1.75</option>
-            <option value="LargeDrink">Large - $2.00</option>
-            <option value="ExtraLargeDrink">Extra Large - $2.25</option>
+            <option value="1.50" Small>Small - $1.50</option>
+            <option value="1.75">Medium - $1.75</option>
+            <option value="2.00">Large - $2.00</option>
+            <option value="2.25">Extra Large - $2.25</option>
           </select>
     </div>
     <div id="customer-Information">
@@ -90,7 +90,8 @@
 
     <div id="display-and-Compute">
         <textarea id="display" rows="20" cols="80"></textarea>
-        <button type="button">Complete and Display Order</button>
+        <button type="button" id="buttonDisplay">Complete and Display Order</button>
     </div>
+    <script src="script/script.js"></script>
 </body>
 </html>
